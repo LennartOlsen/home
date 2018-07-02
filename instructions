@@ -1,0 +1,11 @@
+To Compress
+tar -zcvf lennartolsennet.tar.gz lennartolsennet/
+
+To send :
+scp lennartolsennet.tar.gz lo@dvalinn:~/webapp
+
+To decompress
+tar -zxvf lennartolsennet.tar.gz -C ~/tmp
+
+To run
+./tmp/lennartolsennet/run.sh

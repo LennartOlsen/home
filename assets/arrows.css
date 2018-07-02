@@ -1,0 +1,40 @@
+.arrows {
+    position: fixed;
+    font-size:8px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:2em;
+    opacity: 0.2;
+    transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s; /* Safari */
+}
+.arrows:hover {
+    opacity: 1;
+    transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s; /* Safari */
+}
+
+/* Hide features */
+.arrows.hide {
+    opacity: 0;
+    transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s; /* Safari */
+}
+.arrows.hide:hover {
+    opacity: 0;
+    transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s; /* Safari */
+}
+.arrows.hidden{
+    display:none;
+}
+
+.arrows > .arrow {
+    border-right:1em solid #1A2930;
+    border-bottom:1em solid #1A2930;
+    width:5em;
+    height:5em;
+    transform: rotate(45deg);
+    margin-left:2em;
+    margin-top:-2em;
+}

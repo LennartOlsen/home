@@ -1,0 +1,84 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+  opacity:1;
+  transition: opacity 0.2s;
+  -webkit-transition: opacity 0.2s; /* Safari */
+}
+a:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  -webkit-transition: opacity 0.2s; /* Safari */
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+/* Bootstrap remove gutters */
+.row.no-pad {
+  margin-right:0;
+  margin-left:0;
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+/* Denim color 
+All stolen from https://designschool.canva.com/blog/website-color-schemes/ #18
+*/
+.denim-font {
+  color: #1A2930;
+}
+.denim-background {
+  background-color: #1A2930;
+}
+.denim-background-faded {
+  background-color: rgba(26, 41, 48, .50);
+}
+/* Mareigold color */
+.marigold-font {
+  color: #F7CE3E;
+}
+.marigold-background {
+  color:#fff;
+  background-color: #F7CE3E;
+}
+.marigold-background-faded {
+  background-color: rgba(247, 206, 62, .50);
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #C5C1C0;
+  font-family: 'Inconsolata', Arial, Helvetica, sans-serif;
+}
+body {
+  opacity:0;
+  transition: opacity 0.2s;
+  -webkit-transition: opacity 0.2s; /* Safari */
+  color: #0A1612;
+  text-align: center;
+  text-shadow: none;
+}
+.jumbotron {
+  border-radius: 0 !important /* for the love of fuck i fucking hate round corners and fucking duck the people who put them on fucking jombos */;
+}

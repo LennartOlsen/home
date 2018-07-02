@@ -1,0 +1,24 @@
+body {
+    background-image:url("background.jpeg");
+    background-repeat:no-repeat;
+    min-height:1000px;
+}
+.container {
+    background-image: url(bg.gif);
+    position: absolute;
+    width: 857px;
+    height: 643px;
+    overflow: scroll;
+    left: 109px;
+    top: 134px;
+}
+.container > table {
+    background-color:#fff;
+    border: 5px solid;
+    border-style:ridge;
+    margin:20px auto 20px auto;
+    max-width: 80%;
+    -webkit-transition: background-color,color 500ms;
+    -moz-transition: background-color,color 500ms;
+    transition: background-color,color 500ms;
+}
